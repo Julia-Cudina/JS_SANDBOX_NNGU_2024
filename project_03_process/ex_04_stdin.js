@@ -1,6 +1,3 @@
-import { argv, stdin, stdout, stderr, exit } from 'node:process';
-
-
 let data = '';
 stdin.on(`readoble`, () => {
    const chunk = stdin.read();

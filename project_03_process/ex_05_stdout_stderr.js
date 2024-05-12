@@ -1,5 +1,3 @@
-import { argv, stdin, stdout, stderr, exit } from 'node:process';
-
 stdout.write("Success! Example stdout\n");
 stderr.write("error! some error occurred\n");
 
